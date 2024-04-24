@@ -1,0 +1,20 @@
+{
+  "tenantId": "pg",
+  "moduleName": "schedule-hearing",
+  "COURT000334": [
+    {
+      "calendarId": 1,
+      "courtId": "COURT000334",
+      "calendarRuleType": "NON-WORKING-DAY",
+      "date": "13-04-2024",
+      "description": "Saturday"
+    },
+    {
+      "calendarId": 2,
+      "courtId": "COURT000334",
+      "calendarRuleType": "NON-WORKING-DAY",
+      "date": "13-04-2024",
+      "description": "Saturday"
+    }
+  ]
+}

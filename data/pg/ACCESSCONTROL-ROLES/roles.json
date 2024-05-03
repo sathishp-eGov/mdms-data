@@ -208,11 +208,6 @@
       "description": "TASK_UPDATOR"
     },
     {
-      "code": "USER_REGISTER",
-      "name": "USER_REGISTER",
-      "description": "USER_REGISTER"
-    },
-    {
       "code": "ADVOCATE_APPROVER",
       "name": "ADVOCATE_APPROVER",
       "description": "User will be able to approve new advocate registration/update applications"

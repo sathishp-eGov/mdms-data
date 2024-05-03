@@ -57,7 +57,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_REGISTER",
+      "rolecode": "EMPLOYEE",
+      "actionid": 2548,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
       "actionid": 2548,
       "actioncode": "",
       "tenantId": "pg"
@@ -75,7 +81,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_REGISTER",
+      "rolecode": "EMPLOYEE",
+      "actionid": 2549,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
       "actionid": 2549,
       "actioncode": "",
       "tenantId": "pg"
@@ -441,38 +453,62 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_REGISTER",
+      "rolecode": "CITIZEN",
       "actionid": 2550,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_REGISTER",
-      "actionid": 2551,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "USER_REGISTER",
+      "rolecode": "CITIZEN",
       "actionid": 2552,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_REGISTER",
-      "actionid": 2553,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "USER_REGISTER",
+      "rolecode": "CITIZEN",
       "actionid": 2554,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_REGISTER",
+      "rolecode": "CITIZEN",
       "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2550,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2552,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2554,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 2553,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 2551,
       "actioncode": "",
       "tenantId": "pg"
     },

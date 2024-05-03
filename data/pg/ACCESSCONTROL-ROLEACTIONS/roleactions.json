@@ -525,61 +525,19 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "CASE_LITIGANT",
+      "rolecode": "CASE_CREATOR",
       "actionid": 2556,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CASE_ADVOCATE",
-      "actionid": 2556,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CASE_LITIGANT",
+      "rolecode": "CASE_VIEWER",
       "actionid": 2557,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CASE_ADVOCATE",
-      "actionid": 2557,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CASE_FSO",
-      "actionid": 2557,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CASE_JUDGE",
-      "actionid": 2557,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CASE_LITIGANT",
-      "actionid": 2558,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CASE_ADVOCATE",
-      "actionid": 2558,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CASE_FSO",
-      "actionid": 2558,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CASE_JUDGE",
+      "rolecode": "CASE_EDITOR",
       "actionid": 2558,
       "actioncode": "",
       "tenantId": "pg"

@@ -454,6 +454,39 @@
          "serviceCode": "advocate",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2556,
+         "name": "Create Case",
+         "url": "/case/case/v1/_create",
+         "displayName": "Create Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2557,
+         "name": "Search Case",
+         "url": "/case/case/v1/_search",
+         "displayName": "Search Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2558,
+         "name": "Update Case ",
+         "url": "/case/case/v1/_update",
+         "displayName": "Update Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
       }
    ]
 }

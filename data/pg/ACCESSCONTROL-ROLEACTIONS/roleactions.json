@@ -541,6 +541,24 @@
       "actionid": 2555,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2556,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2557,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2558,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }

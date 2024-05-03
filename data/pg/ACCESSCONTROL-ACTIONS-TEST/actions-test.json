@@ -197,6 +197,18 @@
          "path": "Otp.ValidateOtp"
       },
       {
+         "id": 870,
+         "name": "Get Actions from MDMS",
+         "url": "/access/v1/actions/mdms/_get",
+         "displayName": "Get Actions from mdms",
+         "orderNumber": 1,
+         "parentModule": "221",
+         "enabled": false,
+         "serviceCode": "AccessControl",
+         "code": "null",
+         "path": "Access Control.Get Actions from MDMS"
+      },
+      {
          "id": 954,
          "name": "MDMS Search",
          "url": "/egov-mdms-service/v1/_search",

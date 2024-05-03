@@ -75,7 +75,7 @@
     {
       "code": "WORKFLOW_ADMIN",
       "name": "Workflow Admin",
-      "description": "Person who has authority to abandon or edit workflow"
+      "description": "Pers0n who has authority to abandon or edit workflow"
     },
     {
       "code": "HEARING_CREATOR",
@@ -206,6 +206,11 @@
       "code": "TASK_UPDATOR",
       "name": "TASK_UPDATOR",
       "description": "TASK_UPDATOR"
+    },
+    {
+      "code": "USER_REGISTER",
+      "name": "USER_REGISTER",
+      "description": "USER_REGISTER"
     },
     {
       "code": "ADVOCATE_APPROVER",

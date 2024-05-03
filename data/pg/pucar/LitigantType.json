@@ -1,0 +1,14 @@
+{
+  "tenantId": "pg",
+  "moduleName": "user-registration",
+  "LitigantType": [
+    {
+      "code": "COMPLAINANT",
+      "active": true
+    },
+    {
+      "code": "RESPONDENT",
+      "active": true
+    }
+  ]
+}

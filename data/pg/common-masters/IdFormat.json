@@ -13,6 +13,10 @@
         {
             "format": "CLERK-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
             "idname": "advocate_clerk.application_number"
+        },
+        {
+            "format": "CASE-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "case.id"
         }
     ]
 }

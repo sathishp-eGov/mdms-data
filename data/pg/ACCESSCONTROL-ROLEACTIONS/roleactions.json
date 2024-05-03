@@ -523,6 +523,66 @@
       "actionid": 2555,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_LITIGANT",
+      "actionid": 2556,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_ADVOCATE",
+      "actionid": 2556,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_LITIGANT",
+      "actionid": 2557,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_ADVOCATE",
+      "actionid": 2557,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_FSO",
+      "actionid": 2557,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_JUDGE",
+      "actionid": 2557,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_LITIGANT",
+      "actionid": 2558,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_ADVOCATE",
+      "actionid": 2558,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_FSO",
+      "actionid": 2558,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_JUDGE",
+      "actionid": 2558,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }

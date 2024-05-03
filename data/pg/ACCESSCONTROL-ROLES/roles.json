@@ -226,6 +226,26 @@
       "code": "ADVOCATE_CLERK_ROLE",
       "name": "ADVOCATE_CLERK_ROLE",
       "description": "User will be assigned an advocate-clerk role"
+    },
+    {
+      "code": "CASE_LITIGANT",
+      "name": "CASE_LITIGANT",
+      "description": "LITIGANT for case"
+    },
+    {
+      "code": "CASE_ADVOCATE",
+      "name": "CASE_ADVOCATE",
+      "description": "ADVOCATE for case"
+    },
+    {
+      "code": "CASE_FSO",
+      "name": "CASE_FSO",
+      "description": "FSO for case"
+    },
+    {
+      "code": "CASE_JUDGE",
+      "name": "CASE_JUDGE",
+      "description": "JUDGE for case" 
     }
   ]
 }

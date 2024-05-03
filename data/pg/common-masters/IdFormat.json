@@ -15,7 +15,7 @@
             "idname": "advocate_clerk.application_number"
         },
         {
-            "format": "CASE-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "format": "CASE-[cy:yyyy-MM-dd]-[SEQ_CASE_ADVOCATE]",
             "idname": "case.id"
         }
     ]

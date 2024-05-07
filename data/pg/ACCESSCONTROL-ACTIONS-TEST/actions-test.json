@@ -487,6 +487,51 @@
          "serviceCode": "case",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2510,
+         "name": "MDMS v2 Search",
+         "url": "/mdms-v2/schema/v1/_search",
+         "parentModule": "",
+         "displayName": "MDMS v2",
+         "orderNumber": 1,
+         "enabled": true,
+         "serviceCode": "MDMS v2",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2312,
+         "name": "Document Uploader: Search document",
+         "url": "/egov-document-uploader/egov-du/document/_search",
+         "displayName": "Search document",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "DU",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 1830,
+         "name": "mSeva Event Search",
+         "url": "/egov-user-event/v1/events/_search",
+         "displayName": "mSeva Event Notification",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "msea-event-notification",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2490,
+         "name": "Survey Service: Search survey",
+         "url": "/egov-survey-services/egov-ss/survey/_search",
+         "displayName": "Search survey",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "SS",
+         "code": "null",
+         "path": ""
       }
    ]
 }

@@ -544,6 +544,30 @@
          "serviceCode": "MDMS v2",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2533,
+         "name": "MDMS",
+         "url":"/mdms-v2/v2/_create/ACCESSCONTROL-ROLES.roles",
+         "displayName": "Create ACCESSCONTROL-ROLES roles",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "MDMS",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2534,
+         "name": "MDMS",
+         "url":"/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.roles",
+         "displayName": "Update ACCESSCONTROL-ROLES roles",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "MDMS",
+         "code": "null",
+         "path": ""
       }
    ]
 }

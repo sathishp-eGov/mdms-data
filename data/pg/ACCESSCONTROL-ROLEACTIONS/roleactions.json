@@ -649,6 +649,36 @@
       "actionid": 2534,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2559,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2560,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2559,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2560,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2561,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }

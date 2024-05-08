@@ -1,0 +1,71 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Order",
+  "OrderType": [
+    {
+      "id": 1,
+      "type": "NOTICE",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "DOCUMENT_SUBMISSION",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "type": "EXTENSION_OF_DOCUMENT_SUBMISSION_DATE",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "type": "SUMMONS",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "type": "WARRANT",
+      "isactive": true
+    },
+    {
+      "id": 6,
+      "type": "BAIL",
+      "isactive": true
+    },
+    {
+      "id": 7,
+      "type": "PAYMENT_AGAINST_PENALTY",
+      "isactive": true
+    },
+    {
+      "id": 8,
+      "type": "NEXT_HEARING",
+      "isactive": true
+    },
+    {
+      "id": 9,
+      "type": "RESCHEDULE_OF_HEARING_DATE",
+      "isactive": true
+    },
+    {
+      "id": 10,
+      "type": "EDIT_OF_CASE_DETAILS",
+      "isactive": true
+    },
+    {
+      "id": 11,
+      "type": "TRANSFER_TO_ADR",
+      "isactive": true
+    },
+    {
+      "id": 12,
+      "type": "JUDGEMENT",
+      "isactive": true
+    },
+    {
+      "id": 13,
+      "type": "OTHERS",
+      "isactive": true
+    }
+  ]
+}

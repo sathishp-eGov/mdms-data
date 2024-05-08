@@ -1,0 +1,36 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Hearing",
+  "HearingRescheduleReason": [
+    {
+      "id": 1,
+      "reason": "SCHEDULING_CONFLICT",
+      "visibility": "JUDGES_ONLY",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "reason": "TRAVELLING",
+      "visibility": "OTHERS",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "reason": "DOCUMENT_INCOMPLETE",
+      "visibility": "OTHERS",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "reason": "UNWELL",
+      "visibility": "OTHERS",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "reason": "COURT_CLOSED",
+      "visibility": "JUDGES_ONLY",
+      "isactive": true
+    }
+  ]
+}

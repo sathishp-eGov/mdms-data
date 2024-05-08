@@ -568,6 +568,39 @@
          "serviceCode": "MDMS",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2559,
+         "name": "Create witness",
+         "url": "/case/case/witness/v1/_create",
+         "displayName": "Create witness",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2560,
+         "name": "Search witness",
+         "url": "/case/case/witness/v1/_search",
+         "displayName": "Search witness",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2561,
+         "name": "Update witness ",
+         "url": "/case/case/witness/v1/_update",
+         "displayName": "Update witness",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
       }
    ]
 }

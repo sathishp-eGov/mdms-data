@@ -4,17 +4,18 @@
   "InboxQueryConfiguration": [
     {
       "module": "Advocate services",
-      "index": "advocate-index-test",
+      "index": "advocate-index",
       "allowedSearchCriteria": [
-        {
-          "name": "id",
-          "path": "Data.advocateDetails.id.keyword",
-          "isMandatory": false
-        },
         {
           "name": "tenantId",
           "path": "Data.advocateDetails.tenantId.keyword",
           "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "id",
+          "path": "Data.advocateDetails.id.keyword",
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {
@@ -44,43 +45,39 @@
         },
         {
           "name": "isActive",
-          "path": "Data.advocateDetails.isActive",
-          "isMandatory": false
-        },
-        {
-          "name": "advocateStatus",
-          "path": "Data.advocateDetails.status.keyword",
+          "path": "Data.advocateDetails.isActive.keyword",
           "isMandatory": false
         },
         {
           "name": "createdBy",
-          "path": "Data.auditDetails.createdBy",
+          "path": "Data.advocateDetails.createdBy.keyword",
           "isMandatory": false
         },
         {
           "name": "lastModifiedBy",
-          "path": "Data.auditDetails.lastModifiedBy",
+          "path": "Data.advocateDetails.lastModifiedBy.keyword",
           "isMandatory": false
         },
         {
           "name": "createdTime",
-          "path": "Data.auditDetails.createdTime",
+          "path": "Data.advocateDetails.createdTime.keyword",
           "isMandatory": false
         },
         {
           "name": "lastModifiedTime",
-          "path": "Data.auditDetails.lastModifiedTime",
+          "path": "Data.advocateDetails.lastModifiedTime.keyword",
           "isMandatory": false
         },
         {
           "name": "additionalDetails",
-          "path": "Data.advocateDetails.additionalDetails",
+          "path": "Data.advocateDetails.additionalDetails.keyword",
           "isMandatory": false
         }
+
       ],
       "sortBy": {
-        "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "path": "Data.advocateDetails.lastModifiedTime",
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.advocateDetails.tenantId",
@@ -89,32 +86,27 @@
         "Data.advocateDetails.barRegistrationNumber",
         "Data.advocateDetails.advocateType",
         "Data.advocateDetails.individualId",
-        "Data.advocateDetails.organisationID",
         "Data.advocateDetails.isActive",
-        "Data.advocateDetails.status",
-        "Data.auditDetails.createdBy",
-        "Data.auditDetails.lastModifiedBy",
-        "Data.auditDetails.createdTime",
-        "Data.auditDetails.lastModifiedTime",
-        "Data.advocateDetails.additionalDetails",
-        "Data.history",
-        "Data.currentProcessInstance",
-        "Data.individual"
+        "Data.advocateDetails.lastModifiedBy",
+        "Data.advocateDetails.createdTime",
+        "Data.advocateDetails.lastModifiedTime",
+        "Data.advocateDetails.additionalDetails"
       ]
     },
     {
       "module": "Advocate Clerk Service",
-      "index": "advocate-clerk-index-test",
+      "index": "advocate-clerk-index",
       "allowedSearchCriteria": [
-        {
-          "name": "id",
-          "path": "Data.clerkDetails.id.keyword",
-          "isMandatory": false
-        },
         {
           "name": "tenantId",
           "path": "Data.clerkDetails.tenantId.keyword",
           "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "id",
+          "path": "Data.clerkDetails.id.keyword",
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {
@@ -123,54 +115,54 @@
           "isMandatory": false
         },
         {
-          "name": "individualId",
+          "name": "barRegistrationNumber",
           "path": "Data.clerkDetails.individualId.keyword",
           "isMandatory": false
         },
         {
-          "name": "isActive",
-          "path": "Data.clerkDetails.isActive",
+          "name": "advocateType",
+          "path": "Data.clerkDetails.isActive.keyword",
           "isMandatory": false
         },
         {
-          "name": "clerkStatus",
+          "name": "individualId",
           "path": "Data.clerkDetails.status.keyword",
           "isMandatory": false
         },
         {
-          "name": "stateRegnNumber",
+          "name": "organisationID",
           "path": "Data.clerkDetails.stateRegnNumber.keyword",
           "isMandatory": false
         },
         {
+          "name": "isActive",
+          "path": "Data.clerkDetails.createdBy.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "createdBy",
-          "path": "Data.auditDetails.createdBy",
+          "path": "Data.clerkDetails.lastModifiedBy.keyword",
           "isMandatory": false
         },
         {
           "name": "lastModifiedBy",
-          "path": "Data.auditDetails.lastModifiedBy",
+          "path": "Data.clerkDetails.createdTime.keyword",
           "isMandatory": false
         },
         {
           "name": "createdTime",
-          "path": "Data.auditDetails.createdTime",
+          "path": "Data.clerkDetails.lastModifiedTime.keyword",
           "isMandatory": false
         },
         {
           "name": "lastModifiedTime",
-          "path": "Data.auditDetails.lastModifiedTime",
-          "isMandatory": false
-        },
-        {
-          "name": "additionalDetails",
-          "path": "Data.clerkDetails.additionalDetails",
+          "path": "Data.clerkDetails.additionalDetails.keyword",
           "isMandatory": false
         }
       ],
       "sortBy": {
-        "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "path": "Data.clerkDetails.lastModifiedTime",
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.clerkDetails.tenantId",
@@ -180,14 +172,11 @@
         "Data.clerkDetails.isActive",
         "Data.clerkDetails.status",
         "Data.clerkDetails.stateRegnNumber",
-        "Data.auditDetails.createdBy",
-        "Data.auditDetails.lastModifiedBy",
-        "Data.auditDetails.createdTime",
-        "Data.auditDetails.lastModifiedTime",
-        "Data.clerkDetails.additionalDetails",
-        "Data.history",
-        "Data.currentProcessInstance",
-        "Data.individual"
+        "Data.clerkDetails.createdBy",
+        "Data.clerkDetails.lastModifiedBy",
+        "Data.clerkDetails.createdTime",
+        "Data.clerkDetails.lastModifiedTime",
+        "Data.clerkDetails.additionalDetails"
       ]
     }
   ]

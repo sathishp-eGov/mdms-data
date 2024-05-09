@@ -7,15 +7,16 @@
       "index": "advocate-index",
       "allowedSearchCriteria": [
         {
+          "name": "id",
+          "path": "Data.advocateDetails.id",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "tenantId",
           "path": "Data.advocateDetails.tenantId",
           "isMandatory": true,
           "operator": "EQUAL"
-        },
-        {
-          "name": "id",
-          "path": "Data.advocateDetails.id",
-          "isMandatory": false
         },
         {
           "name": "applicationNumber",
@@ -85,7 +86,9 @@
         "Data.advocateDetails.barRegistrationNumber",
         "Data.advocateDetails.advocateType",
         "Data.advocateDetails.individualId",
+        "Data.advocateDetails.organisationID",
         "Data.advocateDetails.isActive",
+        "Data.advocateDetails.createdBy",
         "Data.advocateDetails.lastModifiedBy",
         "Data.advocateDetails.createdTime",
         "Data.advocateDetails.lastModifiedTime",
@@ -97,15 +100,15 @@
       "index": "advocate-clerk-index",
       "allowedSearchCriteria": [
         {
-          "name": "tenantId",
-          "path": "Data.clerkDetails.tenantId",
-          "isMandatory": true,
-          "operator": "EQUAL"
-        },
-        {
           "name": "id",
           "path": "Data.clerkDetails.id",
           "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "tenantId",
+          "path": "Data.clerkDetails.tenantId",
+          "isMandatory": true,
           "operator": "EQUAL"
         },
         {
@@ -114,47 +117,47 @@
           "isMandatory": false
         },
         {
-          "name": "barRegistrationNumber",
+          "name": "individualId",
           "path": "Data.clerkDetails.individualId",
           "isMandatory": false
         },
         {
-          "name": "advocateType",
+          "name": "isActive",
           "path": "Data.clerkDetails.isActive",
           "isMandatory": false
         },
         {
-          "name": "individualId",
+          "name": "status",
           "path": "Data.clerkDetails.status",
           "isMandatory": false
         },
         {
-          "name": "organisationID",
+          "name": "stateRegnNumber",
           "path": "Data.clerkDetails.stateRegnNumber",
           "isMandatory": false
         },
         {
-          "name": "isActive",
+          "name": "createdBy",
           "path": "Data.clerkDetails.createdBy",
           "isMandatory": false
         },
         {
-          "name": "createdBy",
+          "name": "lastModifiedBy",
           "path": "Data.clerkDetails.lastModifiedBy",
           "isMandatory": false
         },
         {
-          "name": "lastModifiedBy",
+          "name": "createdTime",
           "path": "Data.clerkDetails.createdTime",
           "isMandatory": false
         },
         {
-          "name": "createdTime",
+          "name": "lastModifiedTime",
           "path": "Data.clerkDetails.lastModifiedTime",
           "isMandatory": false
         },
         {
-          "name": "lastModifiedTime",
+          "name": "additionalDetails",
           "path": "Data.clerkDetails.additionalDetails",
           "isMandatory": false
         }

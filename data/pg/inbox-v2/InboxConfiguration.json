@@ -8,69 +8,68 @@
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
-          "path": "Data.advocateDetails.tenantId.keyword",
+          "path": "Data.advocateDetails.tenantId",
           "isMandatory": true,
           "operator": "EQUAL"
         },
         {
           "name": "id",
-          "path": "Data.advocateDetails.id.keyword",
-          "isMandatory": false,
-          "operator": "EQUAL"
+          "path": "Data.advocateDetails.id",
+          "isMandatory": false
         },
         {
           "name": "applicationNumber",
-          "path": "Data.advocateDetails.applicationNumber.keyword",
+          "path": "Data.advocateDetails.applicationNumber",
           "isMandatory": false
         },
         {
           "name": "barRegistrationNumber",
-          "path": "Data.advocateDetails.barRegistrationNumber.keyword",
+          "path": "Data.advocateDetails.barRegistrationNumber",
           "isMandatory": false
         },
         {
           "name": "advocateType",
-          "path": "Data.advocateDetails.advocateType.keyword",
+          "path": "Data.advocateDetails.advocateType",
           "isMandatory": false
         },
         {
           "name": "individualId",
-          "path": "Data.advocateDetails.individualId.keyword",
+          "path": "Data.advocateDetails.individualId",
           "isMandatory": false
         },
         {
           "name": "organisationID",
-          "path": "Data.advocateDetails.organisationID.keyword",
+          "path": "Data.advocateDetails.organisationID",
           "isMandatory": false
         },
         {
           "name": "isActive",
-          "path": "Data.advocateDetails.isActive.keyword",
+          "path": "Data.advocateDetails.isActive",
           "isMandatory": false
         },
         {
           "name": "createdBy",
-          "path": "Data.advocateDetails.createdBy.keyword",
+          "path": "Data.advocateDetails.createdBy",
           "isMandatory": false
         },
         {
           "name": "lastModifiedBy",
-          "path": "Data.advocateDetails.lastModifiedBy.keyword",
+          "path": "Data.advocateDetails.lastModifiedBy",
           "isMandatory": false
         },
         {
           "name": "createdTime",
-          "path": "Data.advocateDetails.createdTime.keyword",
+          "path": "Data.advocateDetails.createdTime",
           "isMandatory": false
         },
         {
           "name": "lastModifiedTime",
-          "path": "Data.advocateDetails.lastModifiedTime.keyword",
+          "path": "Data.advocateDetails.lastModifiedTime",
           "isMandatory": false
         },
         {
           "name": "additionalDetails",
-          "path": "Data.advocateDetails.additionalDetails.keyword",
+          "path": "Data.advocateDetails.additionalDetails",
           "isMandatory": false
         }
 
@@ -99,64 +98,64 @@
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
-          "path": "Data.clerkDetails.tenantId.keyword",
+          "path": "Data.clerkDetails.tenantId",
           "isMandatory": true,
           "operator": "EQUAL"
         },
         {
           "name": "id",
-          "path": "Data.clerkDetails.id.keyword",
+          "path": "Data.clerkDetails.id",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "applicationNumber",
-          "path": "Data.clerkDetails.applicationNumber.keyword",
+          "path": "Data.clerkDetails.applicationNumber",
           "isMandatory": false
         },
         {
           "name": "barRegistrationNumber",
-          "path": "Data.clerkDetails.individualId.keyword",
+          "path": "Data.clerkDetails.individualId",
           "isMandatory": false
         },
         {
           "name": "advocateType",
-          "path": "Data.clerkDetails.isActive.keyword",
+          "path": "Data.clerkDetails.isActive",
           "isMandatory": false
         },
         {
           "name": "individualId",
-          "path": "Data.clerkDetails.status.keyword",
+          "path": "Data.clerkDetails.status",
           "isMandatory": false
         },
         {
           "name": "organisationID",
-          "path": "Data.clerkDetails.stateRegnNumber.keyword",
+          "path": "Data.clerkDetails.stateRegnNumber",
           "isMandatory": false
         },
         {
           "name": "isActive",
-          "path": "Data.clerkDetails.createdBy.keyword",
+          "path": "Data.clerkDetails.createdBy",
           "isMandatory": false
         },
         {
           "name": "createdBy",
-          "path": "Data.clerkDetails.lastModifiedBy.keyword",
+          "path": "Data.clerkDetails.lastModifiedBy",
           "isMandatory": false
         },
         {
           "name": "lastModifiedBy",
-          "path": "Data.clerkDetails.createdTime.keyword",
+          "path": "Data.clerkDetails.createdTime",
           "isMandatory": false
         },
         {
           "name": "createdTime",
-          "path": "Data.clerkDetails.lastModifiedTime.keyword",
+          "path": "Data.clerkDetails.lastModifiedTime",
           "isMandatory": false
         },
         {
           "name": "lastModifiedTime",
-          "path": "Data.clerkDetails.additionalDetails.keyword",
+          "path": "Data.clerkDetails.additionalDetails",
           "isMandatory": false
         }
       ],

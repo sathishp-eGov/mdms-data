@@ -49,22 +49,22 @@
         },
         {
           "name": "createdBy",
-          "path": "Data.advocateDetails.createdBy",
+          "path": "Data.auditDetails.createdBy",
           "isMandatory": false
         },
         {
           "name": "lastModifiedBy",
-          "path": "Data.advocateDetails.lastModifiedBy",
+          "path": "Data.auditDetails.lastModifiedBy",
           "isMandatory": false
         },
         {
           "name": "createdTime",
-          "path": "Data.advocateDetails.createdTime",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false
         },
         {
           "name": "lastModifiedTime",
-          "path": "Data.advocateDetails.lastModifiedTime",
+          "path": "Data.auditDetails.lastModifiedTime",
           "isMandatory": false
         },
         {
@@ -74,7 +74,7 @@
         }
       ],
       "sortBy": {
-        "path": "Data.advocateDetails.lastModifiedTime",
+        "path": "Data.auditDetails.lastModifiedTime",
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
@@ -139,22 +139,22 @@
         },
         {
           "name": "createdBy",
-          "path": "Data.clerkDetails.createdBy",
+          "path": "Data.auditDetails.createdBy",
           "isMandatory": false
         },
         {
           "name": "lastModifiedBy",
-          "path": "Data.clerkDetails.lastModifiedBy",
+          "path": "Data.auditDetails.lastModifiedBy",
           "isMandatory": false
         },
         {
           "name": "createdTime",
-          "path": "Data.clerkDetails.createdTime",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false
         },
         {
           "name": "lastModifiedTime",
-          "path": "Data.clerkDetails.lastModifiedTime",
+          "path": "Data.auditDetails.lastModifiedTime",
           "isMandatory": false
         },
         {
@@ -164,7 +164,7 @@
         }
       ],
       "sortBy": {
-        "path": "Data.clerkDetails.lastModifiedTime",
+        "path": "Data.auditDetails.lastModifiedTime",
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [

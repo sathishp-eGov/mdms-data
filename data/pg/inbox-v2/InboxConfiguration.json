@@ -8,43 +8,48 @@
       "allowedSearchCriteria": [
         {
           "name": "id",
-          "path": "Data.advocateDetails.id",
+          "path": "Data.advocateDetails.id.keyword",
           "isMandatory": false
         },
         {
           "name": "tenantId",
-          "path": "Data.advocateDetails.tenantId",
+          "path": "Data.advocateDetails.tenantId.keyword",
           "isMandatory": true,
           "operator": "EQUAL"
         },
         {
           "name": "applicationNumber",
-          "path": "Data.advocateDetails.applicationNumber",
+          "path": "Data.advocateDetails.applicationNumber.keyword",
           "isMandatory": false
         },
         {
           "name": "barRegistrationNumber",
-          "path": "Data.advocateDetails.barRegistrationNumber",
+          "path": "Data.advocateDetails.barRegistrationNumber.keyword",
           "isMandatory": false
         },
         {
           "name": "advocateType",
-          "path": "Data.advocateDetails.advocateType",
+          "path": "Data.advocateDetails.advocateType.keyword",
           "isMandatory": false
         },
         {
           "name": "individualId",
-          "path": "Data.advocateDetails.individualId",
+          "path": "Data.advocateDetails.individualId.keyword",
           "isMandatory": false
         },
         {
           "name": "organisationID",
-          "path": "Data.advocateDetails.organisationID",
+          "path": "Data.advocateDetails.organisationID.keyword",
           "isMandatory": false
         },
         {
           "name": "isActive",
           "path": "Data.advocateDetails.isActive",
+          "isMandatory": false
+        },
+        {
+          "name": "status",
+          "path": "Data.advocateDetails.status.keyword",
           "isMandatory": false
         },
         {
@@ -103,23 +108,23 @@
       "allowedSearchCriteria": [
         {
           "name": "id",
-          "path": "Data.clerkDetails.id",
+          "path": "Data.clerkDetails.id.keyword",
           "isMandatory": false
         },
         {
           "name": "tenantId",
-          "path": "Data.clerkDetails.tenantId",
+          "path": "Data.clerkDetails.tenantId.keyword",
           "isMandatory": true,
           "operator": "EQUAL"
         },
         {
           "name": "applicationNumber",
-          "path": "Data.clerkDetails.applicationNumber",
+          "path": "Data.clerkDetails.applicationNumber.keyword",
           "isMandatory": false
         },
         {
           "name": "individualId",
-          "path": "Data.clerkDetails.individualId",
+          "path": "Data.clerkDetails.individualId.keyword",
           "isMandatory": false
         },
         {
@@ -129,12 +134,12 @@
         },
         {
           "name": "status",
-          "path": "Data.clerkDetails.status",
+          "path": "Data.clerkDetails.status.keyword",
           "isMandatory": false
         },
         {
           "name": "stateRegnNumber",
-          "path": "Data.clerkDetails.stateRegnNumber",
+          "path": "Data.clerkDetails.stateRegnNumber.keyword",
           "isMandatory": false
         },
         {

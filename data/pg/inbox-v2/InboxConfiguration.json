@@ -48,7 +48,7 @@
           "isMandatory": false
         },
         {
-          "name": "status",
+          "name": "advocateStatus",
           "path": "Data.advocateDetails.status.keyword",
           "isMandatory": false
         },
@@ -133,7 +133,7 @@
           "isMandatory": false
         },
         {
-          "name": "status",
+          "name": "clerkStatus",
           "path": "Data.clerkDetails.status.keyword",
           "isMandatory": false
         },

@@ -4,7 +4,7 @@
   "InboxQueryConfiguration": [
     {
       "module": "Advocate services",
-      "index": "advocate-index",
+      "index": "advocate-index-test",
       "allowedSearchCriteria": [
         {
           "name": "id",

@@ -104,7 +104,7 @@
     },
     {
       "module": "Advocate Clerk Service",
-      "index": "advocate-clerk-index",
+      "index": "advocate-clerk-index-test",
       "allowedSearchCriteria": [
         {
           "name": "id",

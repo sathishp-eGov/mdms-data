@@ -20,8 +20,7 @@
         {
           "name": "applicationNumber",
           "path": "Data.advocateDetails.applicationNumber.keyword",
-          "isMandatory": false,
-          "operator": "FUZZY"
+          "isMandatory": false
         },
         {
           "name": "barRegistrationNumber",

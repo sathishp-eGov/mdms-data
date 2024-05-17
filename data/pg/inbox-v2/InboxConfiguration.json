@@ -20,8 +20,7 @@
         {
           "name": "applicationNumber",
           "path": "Data.advocateDetails.applicationNumber.keyword",
-          "isMandatory": false,
-          "operator": "FUZZY"
+          "isMandatory": false
         },
         {
           "name": "barRegistrationNumber",
@@ -80,8 +79,8 @@
         }
       ],
       "sortBy": {
-        "path": "Data.auditDetails.lastModifiedTime",
-        "defaultOrder": "DESC"
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
       },
       "sourceFilterPathList": [
         "Data.advocateDetails.tenantId",
@@ -170,8 +169,8 @@
         }
       ],
       "sortBy": {
-        "path": "Data.auditDetails.lastModifiedTime",
-        "defaultOrder": "DESC"
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
       },
       "sourceFilterPathList": [
         "Data.clerkDetails.tenantId",

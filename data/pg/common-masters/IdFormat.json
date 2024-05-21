@@ -21,6 +21,10 @@
         {
             "format": "ORDER-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ORDER]",
             "idname": "order.order_number"
+        },
+        {
+            "format": "ARTIFACT-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ARTIFACT]",
+            "idname": "artifact.artifact_number"
         }
     ]
 }

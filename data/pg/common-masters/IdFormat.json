@@ -17,6 +17,14 @@
         {
             "format": "CASE-FILING-NO-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
             "idname": "case.filing_number"
+        },
+        {
+            "format": "ORDER-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ORDER]",
+            "idname": "order.order_number"
+        },
+        {
+            "format": "ARTIFACT-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ARTIFACT]",
+            "idname": "artifact.artifact_number"
         }
     ]
 }

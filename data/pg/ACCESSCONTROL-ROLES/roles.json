@@ -73,6 +73,11 @@
       "description": "APPLICATION_APPROVER"
     },
     {
+      "code": "APPLICATION_VIEWER",
+      "name": "APPLICATION_VIEWER",
+      "description": "APPLICATION_VIEWER"
+    },
+    {
       "code": "WORKFLOW_ADMIN",
       "name": "Workflow Admin",
       "description": "Person who has authority to abandon or edit workflow"

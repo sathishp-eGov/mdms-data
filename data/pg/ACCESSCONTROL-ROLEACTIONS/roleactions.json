@@ -739,6 +739,42 @@
       "actionid": 2566,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_CREATOR",
+      "actionid": 2567,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_APPROVER",
+      "actionid": 2568,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_APPROVER",
+      "actionid": 2569,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_VIEWER",
+      "actionid": 2569,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_VIEWER",
+      "actionid": 2570,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_APPROVER",
+      "actionid": 2570,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }

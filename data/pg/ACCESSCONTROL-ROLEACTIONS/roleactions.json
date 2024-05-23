@@ -817,6 +817,48 @@
       "actionid": 2573,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_SCHEDULER",
+      "actionid": 2574,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_DATE_REQUESTOR",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_START",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_APPROVER",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_ACCEPTOR",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_CLOSER",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORKFLOW_ADMIN",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }

@@ -755,6 +755,50 @@
          "serviceCode": "ADMIN",
          "code": "null",
          "path": "Administration.Delete Token"
+      },
+      {
+         "id": 2574,
+         "name": "Create Hearing",
+         "url": "/hearing/v1/create",
+         "displayName": "Create Hearing",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "hearing",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2575,
+         "name": "Create Hearing",
+         "url": "/hearing/v1/update",
+         "displayName": "Update Hearing",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "hearing",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2576,
+         "name": "Create Hearing",
+         "url": "/hearing/v1/exists",
+         "displayName": "Hearing exists",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "hearing",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2577,
+         "name": "Create Hearing",
+         "url": "/hearing/v1/search",
+         "displayName": "Search Hearing",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "hearing",
+         "code": "null",
+         "path": ""
       }
    ]
 }

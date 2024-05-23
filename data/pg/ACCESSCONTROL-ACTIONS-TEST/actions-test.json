@@ -660,7 +660,7 @@
       {
          "id": 2567,
          "name": "Application Create",
-         "url": "/application/v1/create",
+         "url": "/application/application/v1/create",
          "displayName": "Application Create",
          "orderNumber": 0,
          "enabled": false,
@@ -671,7 +671,7 @@
       {
          "id": 2568,
          "name": "Application Update",
-         "url": "/application/v1/update",
+         "url": "/application/application/v1/update",
          "displayName": "Application Update",
          "orderNumber": 0,
          "enabled": false,
@@ -682,7 +682,7 @@
       {
          "id": 2569,
          "name": "Application Search",
-         "url": "/application/v1/search",
+         "url": "/application/application/v1/search",
          "displayName": "Application Search",
          "orderNumber": 0,
          "enabled": false,
@@ -693,7 +693,7 @@
       {
          "id": 2570,
          "name": "Application Exists",
-         "url": "/application/v1/exists",
+         "url": "/application/application/v1/exists",
          "displayName": "Application Exists",
          "orderNumber": 0,
          "enabled": false,
@@ -704,7 +704,7 @@
       {
          "id": 2571,
          "name":"Evidence Create",
-         "url": "/artifacts/v1/_create",
+         "url": "/evidence/artifacts/v1/_create",
          "displayName": "Evidence Create",
          "orderNumber": 0,
          "enabled": false,
@@ -714,7 +714,7 @@
       },{
          "id": 2572,
          "name": "Evidence Search",
-         "url": "/artifacts/v1/search",
+         "url": "/evidence/artifacts/v1/search",
          "displayName": "Evidence Search",
          "orderNumber": 0,
          "enabled": false,
@@ -725,7 +725,7 @@
       {
          "id": 2573,
          "name":"Evidence Update",
-         "url": "/artifacts/v1/_update",
+         "url": "/evidence/artifacts/v1/_update",
          "displayName": "Evidence Update",
          "orderNumber": 0,
          "enabled": false,

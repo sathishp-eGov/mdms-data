@@ -702,6 +702,38 @@
          "path": ""
       },
       {
+         "id": 2571,
+         "name":"Evidence Create",
+         "url": "/artifacts/v1/_create",
+         "displayName": "Evidence Create",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "evidence",
+         "code": "null",
+         "path": ""
+      },{
+         "id": 2572,
+         "name": "Evidence Search",
+         "url": "/artifacts/v1/search",
+         "displayName": "Evidence Search",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "Evidence",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2573,
+         "name":"Evidence Update",
+         "url": "/artifacts/v1/_update",
+         "displayName": "Evidence Update",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "evidence",
+         "code": "null",
+         "path": ""
+      },
+      {
          "id": 1734,
          "name": "LocalizationMessagesUpsert",
          "url": "/localization/messages/v1/_upsert",

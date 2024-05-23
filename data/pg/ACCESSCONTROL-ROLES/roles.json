@@ -163,6 +163,16 @@
       "description": "DEPOSITION_PUBLISHER"
     },
     {
+      "code": "DEPOSITION_EDITOR",
+      "name": "DEPOSITION_EDITOR",
+      "description": "DEPOSITION_EDITOR"
+    },
+    {
+      "code": "DEPOSITION_VIEWER",
+      "name": "DEPOSITION_VIEWER",
+      "description": "DEPOSITION_VIEWER"
+    },
+    {
       "code": "COURT_ADMIN",
       "name": "COURT_ADMIN",
       "description": "COURT_ADMIN"

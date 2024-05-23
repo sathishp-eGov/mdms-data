@@ -555,6 +555,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2578,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "CASE_EDITOR",
       "actionid": 2558,
       "actioncode": "",

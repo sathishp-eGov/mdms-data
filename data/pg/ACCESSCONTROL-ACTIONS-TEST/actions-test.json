@@ -799,6 +799,17 @@
          "serviceCode": "hearing",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2578,
+         "name": "Exist Case",
+         "url": "/case/case/v1/_exists",
+         "displayName": "Exist Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
       }
    ]
 }

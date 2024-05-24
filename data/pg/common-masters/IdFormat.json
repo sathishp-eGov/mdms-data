@@ -29,6 +29,10 @@
         {
             "format": "APPLICATION-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_APPLICATION]",
             "idname": "application.application_number"
+        },
+        {
+            "format": "HEARING-ID-[cy:yyyy-MM-dd]-[SEQ_HEARING_ID]",
+            "idname": "hearing.id"
         }
     ]
 }

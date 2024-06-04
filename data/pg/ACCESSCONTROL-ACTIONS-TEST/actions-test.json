@@ -714,7 +714,7 @@
       },{
          "id": 2572,
          "name": "Evidence Search",
-         "url": "/evidence/artifacts/v1/search",
+         "url": "/evidence/artifacts/v1/_search",
          "displayName": "Evidence Search",
          "orderNumber": 0,
          "enabled": false,

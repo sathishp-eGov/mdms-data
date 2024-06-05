@@ -658,6 +658,82 @@
          "path": ""
       },
       {
+         "id": 2567,
+         "name": "Application Create",
+         "url": "/application/application/v1/create",
+         "displayName": "Application Create",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "application",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2568,
+         "name": "Application Update",
+         "url": "/application/application/v1/update",
+         "displayName": "Application Update",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "application",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2569,
+         "name": "Application Search",
+         "url": "/application/application/v1/search",
+         "displayName": "Application Search",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "application",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2570,
+         "name": "Application Exists",
+         "url": "/application/application/v1/exists",
+         "displayName": "Application Exists",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "application",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2571,
+         "name":"Evidence Create",
+         "url": "/evidence/artifacts/v1/_create",
+         "displayName": "Evidence Create",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "evidence",
+         "code": "null",
+         "path": ""
+      },{
+         "id": 2572,
+         "name": "Evidence Search",
+         "url": "/evidence/artifacts/v1/_search",
+         "displayName": "Evidence Search",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "evidence",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2573,
+         "name":"Evidence Update",
+         "url": "/evidence/artifacts/v1/_update",
+         "displayName": "Evidence Update",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "evidence",
+         "code": "null",
+         "path": ""
+      },
+      {
          "id": 1734,
          "name": "LocalizationMessagesUpsert",
          "url": "/localization/messages/v1/_upsert",
@@ -666,6 +742,72 @@
          "parentModule": "",
          "enabled": false,
          "serviceCode": "filestore url",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 701,
+         "name": "Delete Token",
+         "url": "/user/_logout",
+         "displayName": "Delete Token",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "ADMIN",
+         "code": "null",
+         "path": "Administration.Delete Token"
+      },
+      {
+         "id": 2574,
+         "name": "Create Hearing",
+         "url": "/hearing/v1/create",
+         "displayName": "Create Hearing",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "hearing",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2575,
+         "name": "Create Hearing",
+         "url": "/hearing/v1/update",
+         "displayName": "Update Hearing",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "hearing",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2576,
+         "name": "Create Hearing",
+         "url": "/hearing/v1/exists",
+         "displayName": "Hearing exists",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "hearing",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2577,
+         "name": "Create Hearing",
+         "url": "/hearing/v1/search",
+         "displayName": "Search Hearing",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "hearing",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2578,
+         "name": "Exist Case",
+         "url": "/case/case/v1/_exists",
+         "displayName": "Exist Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
          "code": "null",
          "path": ""
       }

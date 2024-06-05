@@ -73,6 +73,11 @@
       "description": "APPLICATION_APPROVER"
     },
     {
+      "code": "APPLICATION_VIEWER",
+      "name": "APPLICATION_VIEWER",
+      "description": "APPLICATION_VIEWER"
+    },
+    {
       "code": "WORKFLOW_ADMIN",
       "name": "Workflow Admin",
       "description": "Person who has authority to abandon or edit workflow"
@@ -156,6 +161,16 @@
       "code": "DEPOSITION_PUBLISHER",
       "name": "DEPOSITION_PUBLISHER",
       "description": "DEPOSITION_PUBLISHER"
+    },
+    {
+      "code": "DEPOSITION_EDITOR",
+      "name": "DEPOSITION_EDITOR",
+      "description": "DEPOSITION_EDITOR"
+    },
+    {
+      "code": "DEPOSITION_VIEWER",
+      "name": "DEPOSITION_VIEWER",
+      "description": "DEPOSITION_VIEWER"
     },
     {
       "code": "COURT_ADMIN",

@@ -1,22 +1,34 @@
 {
-    "tenantId": "pg",
-    "moduleName": "common-masters",
-    "IdFormat": [
-        {
-           "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
-           "idname": "individual.id"
-        },
-        {
-            "format": "ADV-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "advocate.application_number"
-        },
-        {
-            "format": "CLERK-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "advocate_clerk.application_number"
-        },
-        {
-            "format": "CASE-FILING-NO-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "case.filing_number"
-        }
-    ]
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "IdFormat": [
+    {
+      "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
+      "idname": "individual.id"
+    },
+    {
+      "format": "ADV-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "advocate.application_number"
+    },
+    {
+      "format": "CLERK-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "advocate_clerk.application_number"
+    },
+    {
+      "format": "CC-[SEQ_CASE_NUMBER]-[cy:yyyy]",
+      "idname": "case.casenumber_cc"
+    },
+    {
+      "format": "WP-[SEQ_CASE_NUMBER]-[cy:yyyy]",
+      "idname": "case.casenumber_wp"
+    },
+    {
+      "format": "F-C.1881.026-[cy:yyyy]-[SEQ_FILLING_NUMBER]",
+      "idname": "case.filing_number_nia"
+    },
+    {
+      "format": "F-C.1973.002-[cy:yyyy]-[SEQ_FILLING_NUMBER]",
+      "idname": "case.filing_number_cp"
+    }
+  ]
 }

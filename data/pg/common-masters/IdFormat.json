@@ -33,6 +33,10 @@
         {
             "format": "HEARING-ID-[cy:yyyy-MM-dd]-[SEQ_HEARING_ID]",
             "idname": "hearing.id"
+        },
+        {
+            "format": "TASK-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_TASK]",
+            "idname": "task.task_number"
         }
     ]
 }

@@ -769,7 +769,7 @@
       },
       {
          "id": 2575,
-         "name": "Create Hearing",
+         "name": "Update Hearing",
          "url": "/hearing/v1/update",
          "displayName": "Update Hearing",
          "orderNumber": 0,
@@ -780,7 +780,7 @@
       },
       {
          "id": 2576,
-         "name": "Create Hearing",
+         "name": "Hearing Exist",
          "url": "/hearing/v1/exists",
          "displayName": "Hearing exists",
          "orderNumber": 0,
@@ -791,7 +791,7 @@
       },
       {
          "id": 2577,
-         "name": "Create Hearing",
+         "name": "Search Hearing",
          "url": "/hearing/v1/search",
          "displayName": "Search Hearing",
          "orderNumber": 0,

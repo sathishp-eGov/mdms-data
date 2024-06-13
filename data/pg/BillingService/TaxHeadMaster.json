@@ -1,0 +1,26 @@
+{
+  "tenantId": "pg",
+  "moduleName": "BillingService",
+  "TaxHeadMaster": [
+    {
+      "category": "TAX",
+      "service": "PT",
+      "name": "Pt adhoc rebate",
+      "code": "PT_ADHOC_REBATE",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "CE",
+      "name": "Case Efiling advance carry forward",
+      "code": "CE_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    }
+  ]
+}

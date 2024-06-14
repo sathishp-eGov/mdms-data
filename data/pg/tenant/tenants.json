@@ -6,7 +6,7 @@
       "code": "pg",
       "name": "State",
       "description": "State",
-      "logoId": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.citya/logo.png",
+      "logoId": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/pucar/govt-of-ind-logo.png",
       "imageId": null,
       "domainUrl": "www.stae.gov.in",
       "type": "CITY",

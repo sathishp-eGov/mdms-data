@@ -5,7 +5,12 @@
     {
       "id": 1,
       "isActive": true,
-      "value": "default"
+      "value": "Document"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "value": "Application"
     }
   ]
 }

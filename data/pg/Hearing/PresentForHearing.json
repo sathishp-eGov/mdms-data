@@ -6,6 +6,11 @@
       "id": 1,
       "isActive": true,
       "value": "Complainant, Respondent"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "value": "Respondent"
     }
   ]
 }

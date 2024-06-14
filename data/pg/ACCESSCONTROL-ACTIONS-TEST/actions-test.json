@@ -810,6 +810,20 @@
          "serviceCode": "case",
          "code": "null",
          "path": ""
-      }
+      },
+       {
+      "id": 2579,
+      "name": "Home",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "pucar",
+      "enabled": true,
+      "code": "null",
+      "path": "0Home",
+      "navigationURL": "/pucar-ui/employee/",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
+    }
    ]
 }

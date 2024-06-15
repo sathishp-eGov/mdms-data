@@ -14,6 +14,17 @@
       ]
     },
     {
+      "module": "Sample",
+      "code": "Sample",
+      "active": true,
+      "order": 1,
+      "tenants": [
+      {
+          "code": "pg"
+        }
+      ]
+    },
+    {
       "module": "Cases",
       "code": "Cases",
       "active": true,

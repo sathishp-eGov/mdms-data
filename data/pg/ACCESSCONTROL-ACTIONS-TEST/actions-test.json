@@ -828,44 +828,35 @@
     {
       "id": 2580,
       "name": "Case Inbox",
-      "url": "url",
-      "displayName": "Case Inbox",
-      "orderNumber": 1,
-      "parentModule": "pucar",
-      "enabled": true,
+      "url": "/pgr-services/mock/inbox/cases",
+      "displayName": "Search Hearing",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "inbox",
       "code": "null",
-      "path": "Home",
-      "navigationURL": "/pgr-services/mock/inbox/cases",
-      "leftIcon": "dynamic:MuktaHomeIcon",
-      "rightIcon": ""
-    },
-    {
+      "path": ""
+   },
+   {
       "id": 2581,
       "name": "Hearing Inbox",
-      "url": "url",
+      "url": "/pgr-services/mock/inbox/hearings",
       "displayName": "Hearing Inbox",
-      "orderNumber": 1,
-      "parentModule": "pucar",
-      "enabled": true,
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "inbox",
       "code": "null",
-      "path": "Home",
-      "navigationURL": "/pgr-services/mock/inbox/hearings",
-      "leftIcon": "dynamic:MuktaHomeIcon",
-      "rightIcon": ""
-    },
-    {
+      "path": ""
+   },
+   {
       "id": 2582,
       "name": "Task Inbox",
-      "url": "url",
+      "url": "/pgr-services/mock/inbox/tasks",
       "displayName": "Task Inbox",
-      "orderNumber": 1,
-      "parentModule": "pucar",
-      "enabled": true,
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "inbox",
       "code": "null",
-      "path": "Home",
-      "navigationURL": "/pgr-services/mock/inbox/tasks",
-      "leftIcon": "dynamic:MuktaHomeIcon",
-      "rightIcon": ""
-    }
-   ]
+      "path": ""
+   }
+     ]
 }

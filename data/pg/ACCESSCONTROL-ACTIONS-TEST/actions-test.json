@@ -857,6 +857,50 @@
       "serviceCode": "inbox",
       "code": "null",
       "path": ""
-   }
-     ]
+   },
+      {
+         "id": 2583,
+         "name": "Task Create",
+         "url": "/task/v1/create",
+         "displayName": "Task Create",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "task",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2584,
+         "name": "Task Update",
+         "url": "/task/v1/update",
+         "displayName": "Task Update",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "task",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2585,
+         "name": "Task Search",
+         "url": "/task/v1/search",
+         "displayName": "Task Search",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "task",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2586,
+         "name":"Task Exists",
+         "url": "/task/v1/exists",
+         "displayName": "Task Exists",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "task",
+         "code": "null",
+         "path": ""
+      }
+   ]
 }

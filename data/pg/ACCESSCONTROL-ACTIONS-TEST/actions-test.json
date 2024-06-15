@@ -616,7 +616,7 @@
       {
          "id": 2563,
          "name": "Order Create",
-         "url": "/order/v1/create",
+         "url": "/order/order/v1/create",
          "displayName": "Order Create",
          "orderNumber": 0,
          "enabled": false,
@@ -627,7 +627,7 @@
       {
          "id": 2564,
          "name": "Order Update",
-         "url": "/order/v1/update",
+         "url": "/order/order/v1/update",
          "displayName": "Order Update",
          "orderNumber": 0,
          "enabled": false,
@@ -638,7 +638,7 @@
       {
          "id": 2565,
          "name": "Order Search",
-         "url": "/order/v1/search",
+         "url": "/order/order/v1/search",
          "displayName": "Order Search",
          "orderNumber": 0,
          "enabled": false,
@@ -649,7 +649,7 @@
       {
          "id": 2566,
          "name":"Order Exists",
-         "url": "/order/v1/exists",
+         "url": "/order/order/v1/exists",
          "displayName": "Order Exists",
          "orderNumber": 0,
          "enabled": false,

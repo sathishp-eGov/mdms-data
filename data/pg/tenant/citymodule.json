@@ -56,6 +56,17 @@
           "code": "pg"
         }
       ]
+    },
+       {
+      "module": "Submissions",
+      "code": "Submissions",
+      "active": true,
+      "order": 4,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
     }
   ]
 }

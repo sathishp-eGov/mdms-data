@@ -231,6 +231,24 @@
           "maxFilesAllowed": 0
         }
       ]
+    },
+    {
+      "module": "Submit Application",
+      "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
+      "maxSizeInMB": 5,
+      "bannerLabel": "SUPPORTING_DOCUMENTS_OPTIONAL",
+      "documents": [
+        {
+          "code": "SUPPORTING_DOCUMENTS",
+          "name" : "SUPPORTING_DOCUMENTS",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        }
+      ]
     }
   ]
 }

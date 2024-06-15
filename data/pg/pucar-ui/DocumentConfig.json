@@ -231,6 +231,72 @@
           "maxFilesAllowed": 0
         }
       ]
+    },
+     {
+      "module": "Project",
+      "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+      "maxSizeInMB": 5,
+      "bannerLabel": "PROJECT_BANNER",
+      "documents": [
+        {
+          "code": "PROJECT_PROPOSAL",
+          "name" : "noSubProject_doc_project_proposal",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        },
+        {
+          "code": "FINALIZED_WORKLIST",
+          "name" : "noSubProject_doc_finalized_worklist",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        },
+        {
+          "code": "FEASIBILITY_ANALYSIS",
+          "name" : "noSubProject_doc_feasibility_analysis",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        },
+        {
+          "code": "OTHERS",
+          "name" : "noSubProject_doc_others",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : true,
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        }
+      ]
+    },
+    {
+      "module": "Submit Application",
+      "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
+      "maxSizeInMB": 5,
+      "bannerLabel": "SUPPORTING_DOCUMENTS_OPTIONAL",
+      "documents": [
+        {
+          "code": "SUPPORTING_DOCUMENTS",
+          "name" : "SUPPORTING_DOCUMENTS",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        }
+      ]
     }
   ]
 }

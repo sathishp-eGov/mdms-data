@@ -824,6 +824,48 @@
       "navigationURL": "/pucar-ui/employee/",
       "leftIcon": "dynamic:MuktaHomeIcon",
       "rightIcon": ""
+    },
+    {
+      "id": 2580,
+      "name": "Case Inbox",
+      "url": "url",
+      "displayName": "Case Inbox",
+      "orderNumber": 1,
+      "parentModule": "pucar",
+      "enabled": true,
+      "code": "null",
+      "path": "Home",
+      "navigationURL": "/pgr-services/mock/inbox/cases",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
+    },
+    {
+      "id": 2581,
+      "name": "Hearing Inbox",
+      "url": "url",
+      "displayName": "Hearing Inbox",
+      "orderNumber": 1,
+      "parentModule": "pucar",
+      "enabled": true,
+      "code": "null",
+      "path": "Home",
+      "navigationURL": "/pgr-services/mock/inbox/hearings",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
+    },
+    {
+      "id": 2582,
+      "name": "Task Inbox",
+      "url": "url",
+      "displayName": "Task Inbox",
+      "orderNumber": 1,
+      "parentModule": "pucar",
+      "enabled": true,
+      "code": "null",
+      "path": "Home",
+      "navigationURL": "/pgr-services/mock/inbox/tasks",
+      "leftIcon": "dynamic:MuktaHomeIcon",
+      "rightIcon": ""
     }
    ]
 }

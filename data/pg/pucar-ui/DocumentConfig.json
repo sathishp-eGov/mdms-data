@@ -233,7 +233,7 @@
       ]
     },
     {
-      "module": "Submit Application",
+      "module": "SUBMISSION",
       "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
       "maxSizeInMB": 5,
       "bannerLabel": "SUPPORTING_DOCUMENTS_OPTIONAL",

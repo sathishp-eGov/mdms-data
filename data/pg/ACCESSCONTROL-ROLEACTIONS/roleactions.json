@@ -741,6 +741,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2565,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2565,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "ORDER_APPROVER",
       "actionid": 2566,
       "actioncode": "",
